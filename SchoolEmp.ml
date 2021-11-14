@@ -33,7 +33,7 @@ insert into pdp_tmp.MySchoolEmployee(Employee_No,first_name,last_name,birthdate,
 values(:Employee_No,:first_name,:last_name,:birthdate,:joined_date,:dept_no);
 
 
-.import infile D:\PTCL\MULTILOAD\ArfaSchoolEmployee.txt
+.import infile D:\PTCL\MULTILOAD\Employee.txt
 	format vartext ','
 	layout inslayout
 	apply insdml;
